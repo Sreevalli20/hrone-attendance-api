@@ -16,7 +16,7 @@ This is a FastAPI application that manages employee attendance records with punc
 
 ## Prerequisites
 
-- Python 3.11+ (tested with Python 3.14.6)
+- Python 3.11+
 - MongoDB 6.0 or newer (the grader uses 7.0)
 - MongoDB Atlas free tier (M0) or local MongoDB instance
 
@@ -187,17 +187,6 @@ candidate_kit/
 ```
 
 ## Implementation Notes
-
-### Python 3.14 Compatibility
-
-The dependency versions are pinned to work with Python 3.14.6:
-- fastapi==0.115.0
-- uvicorn[standard]==0.32.0
-- pymongo==4.10.1
-- pydantic==2.9.2
-- python-dotenv==1.0.1
-
-All selected versions are at least 7 days old (as of October 2026) and have been tested for compatibility.
 
 ### Time Zone Handling
 

@@ -50,6 +50,3 @@ dmypy.json
 
 # Pyre
 .pyre/
-
-# Devin
-.devin/
